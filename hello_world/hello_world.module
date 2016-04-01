@@ -1,3 +1,5 @@
+<?php
+
 /**
  * Provides a 'Hello' Block
  *
@@ -21,3 +23,5 @@ class hello_block extends BlockBase {
     );
   }
 }
+
+?>
