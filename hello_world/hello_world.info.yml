@@ -1,5 +1,5 @@
 name: Hello World Module
-description: Creates a page showing "Hello World".
+description: Creates a page and a custom block that both show "Hello World".
 package: Custom
 
 type: module

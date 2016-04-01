@@ -1,27 +1,14 @@
 <?php
 
 /**
- * Provides a 'Hello' Block
+ * @file
+ * This file serves as a stub file for the many Examples modules in the
+ * @link http://drupal.org/project/examples Examples for Developers Project @endlink
+ * which you can download and experiment with.
  *
- * @Block(
- *   id = "hello_block",
- *   admin_label = @Translation("Hello block"),
- * )
+ * One might say that examples.module is an example of documentation. However,
+ * note that the example submodules define many doxygen groups, which may or
+ * may not be a good strategy for other modules.
  */
 
-namespace Drupal\hello_world\Plugin\Block;
-
-use Drupal\Core\Block\BlockBase;
-
-class hello_block extends BlockBase {
-  /**
-   * {@inheritdoc}
-   */
-  public function build() {
-    return array(
-      '#markup' => $this->t('Hello, World!'),
-    );
-  }
-}
-
-?>
+use Drupal\Core\Url;
